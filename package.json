@@ -1,0 +1,27 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Zachary Powell - CV in Markdown with automated PDF generation",
+  "main": "generate-pdf.js",
+  "scripts": {
+    "build": "node generate-pdf.js",
+    "pdf": "node generate-pdf.js",
+    "preview": "open CV.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devwithzachary/CV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/devwithzachary/CV/issues"
+  },
+  "homepage": "https://github.com/devwithzachary/CV#readme",
+  "dependencies": {
+    "marked": "^18.1.1",
+    "puppeteer": "^25.14.0"
+  }
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zachary Powell - CV</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #0f172a;
+  --secondary-color: #334155;
+  --accent-color: #0284c7;
+  --accent-light: #e0f2fe;
+  --border-color: #e2e8f0;
+  --text-muted: #64748b;
+  --bg-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@page {
+  size: A4;
+  margin: 11mm 13mm 11mm 13mm;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--secondary-color);
+  background-color: var(--bg-color);
+  line-height: 1.38;
+  font-size: 9pt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cv-container {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  color: var(--primary-color);
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  margin-bottom: 3px;
+}
+
+/* Subtitle / Job Title */
+h1 + p strong:first-child {
+  font-size: 10.5pt;
+  color: var(--accent-color);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Metadata / Contact info lines */
+h1 + p {
+  margin-bottom: 4px;
+  line-height: 1.4;
+  color: var(--secondary-color);
+  font-size: 8.75pt;
+}
+
+/* Horizontal rule divider */
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--border-color);
+  margin: 7px 0 7px 0;
+}
+
+/* Section Headings */
+h2 {
+  font-size: 10.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary-color);
+  border-bottom: 1.25px solid var(--primary-color);
+  padding-bottom: 2px;
+  margin-top: 9px;
+  margin-bottom: 6px;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* Sub-headings (Companies / Roles) */
+h3 {
+  font-size: 9.75pt;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 7px;
+  margin-bottom: 1px;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* Job titles and meta info */
+h3 + p {
+  font-size: 8.5pt;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h3 + p strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Lists and Bullets */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 6px;
+}
+
+li {
+  position: relative;
+  padding-left: 12px;
+  margin-bottom: 3px;
+  line-height: 1.38;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+li::before {
+  content: "•";
+  position: absolute;
+  left: 2px;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 5px;
+  line-height: 1.38;
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Strong text emphasis */
+strong {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+em {
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/* Job Entry Container */
+.job-entry {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* Print optimizations */
+@media print {
+  body {
+    background-color: #ffffff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .cv-container {
+    max-width: 100%;
+  }
+
+  a {
+    color: var(--accent-color);
+  }
+
+  h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <h1>Zachary Powell</h1>
+<p><strong>Head of Developer Relations | Principal Developer Advocate</strong><br>Suffolk, England, United Kingdom · Citizenship: Dual UK / US Citizen · Work Preference: Remote-First (Open to relocation UK / US / EU)<br><a href="https://devwithzachary.com">devwithzachary.com</a> · <a href="https://youtube.com/@devwithzachary">YouTube</a> · <a href="https://github.com/devwithzachary">GitHub</a> · <a href="https://linkedin.com/in/zachary-mg-powell">LinkedIn</a></p>
+<hr>
+<h2>Executive Summary</h2>
+<p>Developer Relations leader, speaker, and software engineer with 15+ years working across the Android and Linux ecosystems. Experienced in building international developer communities, managing multi-disciplinary SDK and tooling teams, and driving technical content across video, open source, and conferences. Background includes a decade of leading distributed teams across North America, EMEA, and APAC—effective both setting high-level DevRel strategy and digging directly into SDK code and documentation as an advocate.</p>
+<hr>
+<h2>Core Competencies &amp; Technical Skills</h2>
+<ul>
+<li><strong>Developer Relations &amp; Leadership:</strong> Developer Experience (DevEx) Strategy, Distributed Team Management, Community Building, Programme Committee Direction, Technical Speaking, Video Production &amp; Streaming, Open Source Advocacy.</li>
+<li><strong>Mobile &amp; Software Engineering:</strong> Android Development (Java, Kotlin, Android SDK), Custom Android OS / AOSP, Cross-Platform &amp; Mobile Tooling (iOS, JavaScript, Cordova), Python, PHP, Web Development.</li>
+<li><strong>Systems, Cloud &amp; Infrastructure:</strong> Linux Kernel &amp; Distributions, Hardware Restoration, Embedded Systems, AWS, VoIP Systems, Network Administration.</li>
+</ul>
+<hr>
+<h2>Professional Experience</h2>
+<div class="job-entry"><h3>Mobile Seasons (droidcon, Fluttercon, next.app devCon)</h3>
+<p><strong>Head of Developer Community – US/EMEA</strong> | <em>June 2025 – Present</em> | <em>Remote (Collaborating with Berlin HQ)</em></p>
+<ul>
+<li>Direct developer community strategy, speaker relations, and programming across the US and EMEA for droidcon, Fluttercon, and next.app devCon.</li>
+<li>Rebuilt the conference video recording and publishing workflow, moving distribution to YouTube and growing channel subscribers from 2,000 to 6,000.</li>
+<li>Formed and led the programme committee for the SwiftCon track at next.app devCon, selecting speakers and shaping the technical agenda.</li>
+<li>Partnered with regional mobile meetups and developer communities across Europe and North America to drive conference awareness and ticket sales.</li>
+<li>Produced and hosted community podcasts alongside live on-site speaker interviews during flagship events.</li>
+</ul>
+</div><div class="job-entry"><h3>Vonage</h3>
+<p><strong>Manager, Developer Relations</strong> | <em>September 2022 – May 2025</em> | <em>Remote</em></p>
+<ul>
+<li>Promoted to lead the Client SDK team after serving as Senior Android Developer Advocate.</li>
+<li>Managed 2 direct reports; stepped in as Acting Manager for the wider Tooling organisation during an internal transition, coordinating a distributed team of 10 engineers across multiple time zones.</li>
+<li>Owned product direction and DevEx for Android, iOS, and JavaScript Client SDKs, partnering with product and engineering leads to prioritize roadmap features.</li>
+</ul>
+<p><strong>Senior Android Developer Advocate</strong> | <em>March 2022 – September 2022</em> | <em>Remote</em></p>
+<ul>
+<li>Served as &quot;user 0&quot; embedded within the tooling team, testing early builds of the Vonage Android SDK to catch usability issues and provide feedback prior to public release.</li>
+<li>Created sample applications, video guides, and technical tutorials, and spoke at conferences to drive adoption of Vonage developer tools.</li>
+</ul>
+</div><div class="job-entry"><h3>Huawei Technologies Research &amp; Development (UK) Ltd</h3>
+<p><strong>Lead Developer Advocate</strong> | <em>April 2021 – March 2022</em> | <em>Greater London, United Kingdom</em></p>
+<ul>
+<li>Promoted within two months to launch the Developer Advocacy function for AppGallery Connect, collaborating with engineering and product teams across China and Europe.</li>
+<li>Established the technical advocacy brand under &quot;devwithzachary&quot; across YouTube, Twitch, dev.to, and Twitter, focusing on hands-on developer education.</li>
+<li>Created recurring technical series including <em>Acronym of the Day</em>, <em>Building Serverless Android Applications</em>, and <em>Service of the Week</em> across video, livestreams, and written guides.</li>
+<li>Spoke at international conferences (DevFest, droidcon, DevRelCon, HDC) and joined industry podcasts (<em>Incredible Avocados</em>, <em>Developing Communities</em>, <em>DevJourney</em>) to share mobile development insights.</li>
+</ul>
+<p><strong>Developer Advocate</strong> | <em>March 2021 – April 2021</em> | <em>Greater London, United Kingdom</em></p>
+<ul>
+<li>Audited documentation across AppGallery Connect services to identify usability gaps, broken samples, and onboarding friction.</li>
+<li>Built reference sample applications in Kotlin and Java demonstrating AppGallery Connect integrations for third-party developers.</li>
+</ul>
+</div><div class="job-entry"><h3>Realtime Despatch Software Ltd</h3>
+<p><strong>Software Engineer</strong> | <em>October 2018 – March 2021</em> | <em>Woodbridge, United Kingdom</em></p>
+<ul>
+<li>Built features for the company&#39;s core Java-based Warehouse Management System (WMS) and handled Tier-2 technical support escalations.</li>
+<li>Helped migrate hosting infrastructure to AWS, developed a cross-platform Cordova mobile app, and built custom REST APIs connecting e-commerce platforms and shipping couriers.</li>
+</ul>
+</div><div class="job-entry"><h3>Vixtel Pty Ltd</h3>
+<p><strong>Software Engineer (Contract)</strong> | <em>January 2014 – January 2019</em> | <em>Remote (UK to Australia)</em></p>
+<ul>
+<li>Worked as Lead Developer on a 5-year remote contract with Australian telecom engineering teams on Android and embedded Linux projects.</li>
+<li>Compiled and customized Android (AOSP) from source to run on dedicated VoIP desktop hardware.</li>
+</ul>
+</div><hr>
+<h2>Earlier Career</h2>
+<ul>
+<li><strong>Freelance Web &amp; Android App Developer</strong> | <em>ZPwebsites</em> (<em>September 2009 – June 2017</em>): Delivered native Android, iOS, and hybrid mobile apps alongside full-stack web projects for clients.</li>
+<li><strong>Network Administration</strong> | <em>Anglian Catering Equipment Hire Ltd</em> (<em>July 2008 – September 2011</em>): Maintained internal networks and hardware; co-developed an online ordering system integrated with backend inventory tracking.</li>
+</ul>
+<hr>
+<h2>Technical Content, Speaking &amp; Open Source</h2>
+<ul>
+<li><strong>YouTube Technical Creator</strong> (<a href="https://youtube.com/@devwithzachary">youtube.com/@devwithzachary</a>): Independent Linux, hardware, and open-source channel with 12,300+ subscribers, 630+ videos, and ~150,000 monthly views. Notable projects include Linux gaming benchmarks (<em>Is Bazzite Ready for Nvidia Users?</em>, 55k views), Chromebook Linux conversions (37k views), and legacy hardware revivals (Surface RT, 30k views).</li>
+<li><strong>Conference Speaking</strong> (<a href="https://github.com/devwithzachary/presentations">github.com/devwithzachary/presentations</a>): Keynote and track speaker at events including droidcon, DevFest, DevRelCon, and HDC; maintain an open repository of talk slides and materials.</li>
+<li><strong>LinuxOnAndroid</strong> (<a href="https://github.com/devwithzachary/LinuxOnAndroid">github.com/devwithzachary/LinuxOnAndroid</a>): Creator and lead developer of the open-source project bringing Linux distributions to Android devices via chroot environments.</li>
+<li><strong>LinuxOnVita</strong> (<a href="https://github.com/devwithzachary/LinuxOnVita">github.com/devwithzachary/LinuxOnVita</a>): Open-source experimentation project porting Linux to PlayStation Vita hardware.</li>
+<li><strong>MineServe</strong> (<a href="https://github.com/devwithzachary/MineServe">github.com/devwithzachary/MineServe</a>): Open-source server management and infrastructure utility.</li>
+</ul>
+<hr>
+<h2>Education</h2>
+<p><strong>BSc, Computer Science</strong> | University of Essex (<em>2011 – 2014</em>)</p>
+
+  </div>
+</body>
+</html>
